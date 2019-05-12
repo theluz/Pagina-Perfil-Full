@@ -1,3 +1,53 @@
 body {
+  margin: 0;
   background-color: #e4f9f5;
+  font-family: "Open sans", sans-serif;
+  text-align: center; /*centralizou todo texto da pagina*/
+}
+
+h1{
+  margin: auto; /*mantem centralizado mesmo mudando a largura*/
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: "Montserrat";
+  font-size: 2.5em;
+
+}
+
+h2{
+  font-family: 'Source Sans Pro', serif;
+  font-style: italic;
+  font-size: 1.4em;
+}
+
+h3{
+  font-family: "Montserrat";
+}
+
+.main-bg{
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.profile-pic{
+  width: 30%;
+  height: 30%;
+}
+
+img{
+  width: 40%;
+  height: 40%;;
+}
+
+.top-container{
+  margin-top: 5%;
+
+}
+
+.middle-container{
+
+}
+
+.bottom-container{
+
 }
