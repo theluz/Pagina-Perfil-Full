@@ -1,26 +1,62 @@
 body {
   margin: 0;
-  background-color: #e4f9f5;
+  color: #40514E;
+  background-color: #ffffff;
   font-family: "Open sans", sans-serif;
   text-align: center; /*centralizou todo texto da pagina*/
 }
 
 h1{
-  margin: auto; /*mantem centralizado mesmo mudando a largura*/
-  /*font-family: 'Montserrat', sans-serif;*/
+  margin: 30px auto 0 auto;
   font-family: "Montserrat";
-  font-size: 2.5em;
-
+  font-size: 3.5rem;
+  color: #66BFBF;
 }
 
 h2{
   font-family: 'Source Sans Pro', serif;
   font-style: italic;
-  font-size: 1.4em;
+  font-size: 2.7rem;
+  color: #66BFBF;
 }
 
 h3{
   font-family: "Montserrat";
+  color: #11999E
+}
+
+a{
+  color: #0d7077;
+  font-family: "Open sans", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6
+}
+
+p{
+    line-height: 1.8;
+}
+
+img{
+  width: 15%;
+  height: 15%;
+  margin-right: 30px;
+
+}
+
+img{
+  width: 20%;
+  height: 20%;
+}
+
+hr{
+  width: 20%;
+  border: dotted #30e3ca;
+  border-bottom: none;
+  margin: 50px auto;
 }
 
 .main-bg{
@@ -30,24 +66,76 @@ h3{
 }
 
 .profile-pic{
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: 20%;
+
 }
 
-img{
-  width: 40%;
-  height: 40%;;
+.study-img{
+  width: 50%;
+  height: 30%;
+  border-radius: 10px;
+
 }
+
 
 .top-container{
   margin-top: 5%;
 
 }
 
+.intro{
+  width: 50%;
+  margin: auto auto 40px auto;
+}
+
 .middle-container{
+margin: 50px 0;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
 
 }
 
-.bottom-container{
+.skill-desc{
+  clear: left;
+}
 
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+
+}
+
+.contact-me{
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.contact-message{
+  width: 50%;
+  margin: 40px auto 60px;
+}
+
+.copyright{
+  color: #EAF6F6;
+}
+
+.btn {
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #66BFBF;
+  padding: 10px 20px 10px 20px;
+  border: solid #66BFBF 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ffffff;
+  text-decoration: none;
+  color: #66BFBF;
 }
