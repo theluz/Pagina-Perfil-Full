@@ -1,9 +1,10 @@
 body {
   margin: 0;
   color: #40514E;
-  background-color: #ffffff;
+  background-color: #f3f9fb;
   font-family: "Open sans", sans-serif;
   text-align: center; /*centralizou todo texto da pagina*/
+  font-size: 1.5em;
 }
 
 h1{
@@ -16,19 +17,19 @@ h1{
 h2{
   font-family: 'Source Sans Pro', serif;
   font-style: italic;
-  font-size: 2.7rem;
+  font-size: 3.5rem;
   color: #66BFBF;
 }
 
 h3{
   font-family: "Montserrat";
-  color: #11999E
+  color: #11999E;
 }
 
 a{
   color: #0d7077;
   font-family: "Open sans", sans-serif;
-  margin: 10px 20px;
+  margin: 10px 0;
   text-decoration: none;
 }
 
@@ -47,11 +48,6 @@ img{
 
 }
 
-img{
-  width: 20%;
-  height: 20%;
-}
-
 hr{
   width: 20%;
   border: dotted #30e3ca;
@@ -59,13 +55,32 @@ hr{
   margin: 50px auto;
 }
 
+/*
+.teste{
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-image: url(../images/fw-bg.jpg);
+
+}*/
+
+.header-title{
+  font-size: 3.5rem;
+}
+
+.header-sub{
+  font-size: 2.5rem;
+}
+
 .main-bg{
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
+
 }
 
 .profile-pic{
+  margin-top: 60px;
   width: 20%;
   height: 20%;
 
@@ -75,22 +90,40 @@ hr{
   width: 50%;
   height: 30%;
   border-radius: 10px;
-
 }
 
 
 .top-container{
   margin-top: 5%;
-
 }
 
 .intro{
-  width: 50%;
+  width: 65%;
   margin: auto auto 40px auto;
 }
 
 .middle-container{
-margin: 50px 0;
+margin: 10px 0;
+
+}
+
+.study h3{
+  text-align: left;
+  width: 50%;
+  margin: auto;
+}
+
+.study-row{
+  margin: 50px auto;
+  font-weight: bold;
+}
+
+.skills a{
+  text-decoration: underline;
+}
+
+.skills a:hover{
+  color: #ed5353;
 }
 
 .skill-row{
@@ -102,26 +135,6 @@ margin: 50px 0;
 
 .skill-desc{
   clear: left;
-}
-
-.bottom-container{
-  background-color: #66BFBF;
-  padding: 50px 0 20px;
-
-}
-
-.contact-me{
-  margin-bottom: 50px;
-  position: relative;
-}
-
-.contact-message{
-  width: 50%;
-  margin: 40px auto 60px;
-}
-
-.copyright{
-  color: #EAF6F6;
 }
 
 .btn {
@@ -138,4 +151,34 @@ margin: 50px 0;
   background: #ffffff;
   text-decoration: none;
   color: #66BFBF;
+}
+
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+
+}
+
+.bottom-container a{
+  margin-left: 20px;
+}
+
+.contact-me{
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.contact-me a:hover{
+  color: #684FA3;
+  
+}
+
+.contact-message{
+  width: 50%;
+  margin: 40px auto 60px;
+}
+
+.copyright{
+  color: #EAF6F6;
 }
