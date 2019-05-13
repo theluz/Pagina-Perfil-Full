@@ -107,10 +107,16 @@ margin: 10px 0;
 
 }
 
+.estacio-logo{
+  width: 30%;
+  height:30%;
+}
+
 .study h3{
   text-align: left;
   width: 50%;
   margin: auto;
+  font-size: 2rem
 }
 
 .study-row{
@@ -171,7 +177,7 @@ margin: 10px 0;
 
 .contact-me a:hover{
   color: #684FA3;
-  
+
 }
 
 .contact-message{
