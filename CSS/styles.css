@@ -1,8 +1,24 @@
 
+.bg {
+
+  background-image: url("../images/fw-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.fit {
+  background-color: #1a1a1a;
+  margin: 0 6%;
+  opacity: 0.9;
+  border-radius: 20px;
+}
+
 body {
   margin: 0;
   padding: 0;
-  color: #d9d9d9;
+  color: #FFFFFF;
   background-color: #1a1a1a;
   font-family: "Open sans", sans-serif;
   text-align: center; /*centralizou todo texto da pagina*/
@@ -46,8 +62,6 @@ p{
 img{
   width: 15%;
   height: 15%;
-  /*margin-right: 30px;*/
-
 }
 
 hr{
@@ -57,28 +71,20 @@ hr{
   margin: 50px auto;
 }
 
-/*
-.teste{
-    background-position:center;
-    background-attachment: fixed;
-    background-repeat:no-repeat;
-    background-image: url(../images/fw-bg.jpg);
-
-}*/
-
 .header-title{
   font-size: 3.5rem;
+  /* background-color: #1a1a1a; */
 }
 
 .header-sub{
   font-size: 2.5rem;
+    /* background-color: #1a1a1a; */
 }
 
 .main-bg{
   height: 100%;
   width: 100%;
-
-
+  display: block;
 }
 
 .profile-pic{
@@ -89,16 +95,16 @@ hr{
 }
 
 .study-img{
-  width: 50%;
+  width: 70%;
   height: 30%;
   border-radius: 10px;
 }
 
 
 .top-container{
-  margin-top: 5%;
+  margin: 3% 0 1% 0;
   width: 100%;
-
+  background-color: #1a1a1a;
 }
 
 .intro{
@@ -107,7 +113,7 @@ hr{
 }
 
 .middle-container{
-margin: 10px 0;
+/* margin: 10px 0; */
 
 }
 
@@ -137,7 +143,7 @@ margin: 10px 0;
 }
 
 .skill-row{
-  width: 50%;
+  width: 60%;
   margin: 100px auto 100px auto;
   text-align: left;
   background-color: #404040;
@@ -154,10 +160,12 @@ margin: 10px 0;
   border-radius: 5px;
   color: #ffffff;
   font-size: 20px;
-  background: #66BFBF;
+  background: #11999E;
   padding: 10px 20px 10px 20px;
+  margin-bottom: 5%;
   border: solid #66BFBF 2px;
   text-decoration: none;
+  display: inline-block;
 }
 
 .btn:hover {
@@ -182,11 +190,6 @@ margin: 10px 0;
   position: relative;
 }
 
-.contact-me a:hover{
-  color: #684FA3;
-
-}
-
 .contact-message{
   width: 50%;
   margin: 40px auto 60px;
@@ -194,6 +197,7 @@ margin: 10px 0;
 
 .footer-link{
   color: #11999E;
+  font-size: 1.9rem;
 }
 
 .copyright{
