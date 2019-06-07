@@ -2,8 +2,8 @@
 body {
   margin: 0;
   padding: 0;
-  color: #40514E;
-  background-color: #f3f9fb;
+  color: #d9d9d9;
+  background-color: #1a1a1a;
   font-family: "Open sans", sans-serif;
   text-align: center; /*centralizou todo texto da pagina*/
   font-size: 1.5em;
@@ -13,23 +13,23 @@ h1{
   margin: 30px auto 0 auto;
   font-family: "Montserrat";
   font-size: 3.5rem;
-  color: #66BFBF;
+  color: #30e3ca;
 }
 
 h2{
   font-family: 'Source Sans Pro', serif;
   font-style: italic;
   font-size: 3.5rem;
-  color: #66BFBF;
+  color: #30e3ca;
 }
 
 h3{
   font-family: "Montserrat";
-  color: #11999E;
+  color: #30e3ca;
 }
 
 a{
-  color: #0d7077;
+  color: #30e3ca;
   font-family: "Open sans", sans-serif;
   margin: 10px 0;
   text-decoration: none;
@@ -140,6 +140,9 @@ margin: 10px 0;
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
+  background-color: #404040;
+  padding: 1.5%;
+  border-radius: 10px;
 
 }
 
@@ -189,6 +192,10 @@ margin: 10px 0;
   margin: 40px auto 60px;
 }
 
+.footer-link{
+  color: #11999E;
+}
+
 .copyright{
-  color: #EAF6F6;
+  color: #000000;
 }
