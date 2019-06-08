@@ -1,6 +1,5 @@
 
 .bg {
-
   background-image: url("../images/fw-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,7 +9,7 @@
 
 .fit {
   background-color: #1a1a1a;
-  margin: 0 6%;
+  margin: 2% 6%;
   opacity: 0.9;
   border-radius: 20px;
 }
